@@ -12,7 +12,9 @@ import com.softalks.http.Servlet;
 
 public abstract class TWikiFormPluginAction extends Servlet {
 
-	protected List<String> nullable = new ArrayList<>();
+    private static final long serialVersionUID = 1L;
+    
+    protected List<String> nullable = new ArrayList<>();
 	
 	public interface Form {
 		String get(String parameter);
