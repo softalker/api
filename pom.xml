@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<repositories>
+		<repository>
+			<id>Softalks</id>
+			<url>https://softalks.com/maven</url>
+		</repository>
+	</repositories>
+	<parent>
+		<groupId>com.softalks</groupId>		
+		<artifactId>abstract-web-library</artifactId>
+		<version>1.0</version>
+	</parent>
+	<artifactId>api</artifactId>
+	<packaging>pom</packaging>
+	<modules>
+		<module>fluent</module>
+		<module>http</module>
+		<module>io</module>
+		<module>sql</module>
+		<module>text</module>
+		<module>twiki</module>
+		<module>xml</module>
+	</modules>
+</project>
